@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="num.css">
+</head>
+<body>
+    <div id="section1" class="container text-center mt-5">
+        <button class="btn btn-warning btn-lg" onclick="generate_number_btn_click()">Generate Number</button>
+    </div>
+
+    <div id="section2" class="container">
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <img src="https://media.tenor.com/images/7ad6c940267a64a53446dbf72fb99197/tenor.gif" alt="">
+                <p class="text-danger">Guess the number between 1 to 20 **</p>
+                <div class="form-group w-25 mx-auto">
+                    <input id="field" type="text" placeholder="Enter Here" class="form-control">
+                </div>
+                <button class="btn btn-primary btn-sm mt-4" onclick="check_number()">Check</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center" id="section3">
+        <img class="img-fluid" style="width: 250px;" src="https://thumbs.gfycat.com/SecondTartCygnet-size_restricted.gif" alt="">
+        <h2>Generating Number...</h2>
+    </div>
+    <script src="num.js"></script>
+</body>
+</html>
